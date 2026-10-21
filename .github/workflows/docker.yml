@@ -1,9 +1,6 @@
 name: Update Tutorial Images
 
 on:
-  schedule:
-    # 5 PM UTC every Sunday
-    - cron:  '0 17 * * 6'
   workflow_dispatch:
   push:
     branches:
